@@ -14,7 +14,7 @@ namespace estoque
         //Criando a variavel Quantidade do produto
         public int Quantidade;
 
-        //Criando método Produto e passando como parametro variaveis nome, preco e quantidade
+        //Criando construtor Produto e passando como parametro variaveis nome, preco e quantidade
         public Produto  (string nome, double preco, int quantidade)
         {
             //Igualando as variaveis da classe Produto com as variaveis do método Produto
