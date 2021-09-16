@@ -7,7 +7,7 @@ namespace estoque
     {
         static void Main(string[] args)
         {
-            
+            //oi
             //Pedindo para o usuário inforar os dados do produto e guardando eles nas variaveis criada no construtor Produto
             Console.WriteLine("Entre com os dados do produto;");       
             Console.Write("Nome: ");
