@@ -29,34 +29,27 @@ namespace estoque
             _quantidade = quantidade;
         }
 
-        public string GetNome()
-        {
-            return _nome;
+        public string Nome{
+            get {return _nome; }
+            set{
+                if(value != null && value.Length > 1)
+                {
+                    _nome = value;
+                }
+            }
         }
 
-        public void SetNome(string nome)
+        public double Preco
         {
-            _nome = nome;
+            get { return _preco;  }
         }
+
+        public int Quantidade
+        {
+            get { return _quantidade; }
+        }
+
         
-        public double  GetPreco()
-        {
-            return _preco;
-        }
-
-        public void SetPreco(double preco)
-        {
-            _preco = preco;
-        }
-        public int GetQuantidade()
-        {
-            return _quantidade;
-        }
-
-        public void SetQuantidade(int quantidade)
-        {
-            _quantidade = quantidade;
-        }
 
         //Criando o método´para retornas o valor total do produto em estoque
         public double ValorTotalEmEstoque() 
