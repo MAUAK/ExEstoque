@@ -29,6 +29,7 @@ namespace estoque
             _quantidade = quantidade;
         }
 
+        //Declarando a propriedade de get (obter) and set (definir) da variavel Nome
         public string Nome{
             get {return _nome; }
             set{
@@ -39,17 +40,17 @@ namespace estoque
             }
         }
 
+        //Declarando a propriedade get (obter) da variavel Preco
         public double Preco
         {
             get { return _preco;  }
         }
 
+        //Declarando a propriedade get (obter) da variavel Preco 
         public int Quantidade
         {
             get { return _quantidade; }
-        }
-
-        
+        } 
 
         //Criando o método´para retornas o valor total do produto em estoque
         public double ValorTotalEmEstoque() 
