@@ -9,9 +9,9 @@ namespace estoque
     {
         //Criando a variavel Nome do produto
         private string _nome;
-        //Criando a variavel Preco do produto e declararando propriedades de get e set 
+        //Criando a variavel Preco do produto e declararando propriedades de get e set, ou seja, obtendo e definindo essas propriedades 
         public double Preco { get; private set; }
-        //Criando a variavel Quantidade do produto e declararando propriedades de get e set 
+        //Criando a variavel Quantidade do produto e declararando propriedades de get e set, ou seja, obtendo e definindo essas propriedades 
         public int Quantidade { get; private set; }
 
         //Criando um construtor vázio
@@ -29,7 +29,7 @@ namespace estoque
             Quantidade = quantidade;
         }
 
-        //Declarando propriedade de get and set da variavel Nome
+        //Declarando propriedade de get (obter) and set (definir) da variavel Nome
         public string Nome{
             get {return _nome; }
             set{
