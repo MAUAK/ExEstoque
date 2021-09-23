@@ -29,30 +29,37 @@ namespace estoque
             _quantidade = quantidade;
         }
 
+        //Obtendo a variavel nome 
         public string GetNome()
         {
             return _nome;
         }
 
+        //Definindo a variavel nome
         public void SetNome(string nome)
         {
             _nome = nome;
         }
-        
+
+        //Obtendo a variavel preço
         public double  GetPreco()
         {
             return _preco;
         }
 
+        //Definindo a variavel preço
         public void SetPreco(double preco)
         {
             _preco = preco;
         }
+
+        //Obtendo a variavel quantidade
         public int GetQuantidade()
         {
             return _quantidade;
         }
 
+        //Definindo a variavel qunatidade
         public void SetQuantidade(int quantidade)
         {
             _quantidade = quantidade;
